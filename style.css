@@ -252,3 +252,60 @@
              }
         }
 
+.container .mobile .content .transactions2 {
+  position: absolute;
+  top: 100%;
+  width: calc(100% - (2 * 0.8rem));
+  height: calc(100% - 152px);
+  overflow-y: scroll;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  opacity: 0;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.container .mobile .content .transactions2 .transaction {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .mobile .content .transactions2 .transaction .image-wrapper {
+  width: 15%;
+}
+.container .mobile .content .transactions2 .transaction .image-wrapper img {
+  width: 100%;
+  height: auto;
+}
+.container .mobile .content .transactions2 .transaction .vendor-details {
+  width: 55%;
+}
+.container .mobile .content .transactions2 .transaction .vendor-details .title {
+  font-size: 12px;
+  margin-bottom: 3px;
+}
+.container .mobile .content .transactions2 .transaction .vendor-details .description {
+  color: #5c5c5c;
+  font-size: 9px;
+}
+.container .mobile .content .transactions2 .transaction .transaction-details {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.container .mobile .content .transactions2 .transaction .transaction-details .price {
+  font-size: 12px;
+  margin-bottom: 3px;
+}
+.container .mobile .content .transactions2 .transaction .transaction-details .date {
+  color: #5c5c5c;
+  font-size: 7px;
+}
+.container .mobile .content .transactions2 .transaction:not(:last-child) {
+  border-bottom: 1px solid #ededed;
+}
+.container .mobile .content .transactions2::-webkit-scrollbar {
+  display: none;
+}
