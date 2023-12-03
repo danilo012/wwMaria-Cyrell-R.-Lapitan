@@ -159,7 +159,7 @@
   position: absolute;
   top: 100%;
   width: calc(100% - (2 * 0.8rem));
-  height: calc(100% - 142px);
+  height: calc(100% - 132px);
   overflow-y: scroll;
   border-radius: 0.1rem;
   background-color: #fff;
@@ -184,7 +184,7 @@
   width: 55%;
 }
 .container .mobile .content .transactions .transaction .vendor-details .title {
-  font-size: 3px;
+  font-size: 2px;
   margin-bottom: 3px;
 }
 .container .mobile .content .transactions .transaction .vendor-details .description {
