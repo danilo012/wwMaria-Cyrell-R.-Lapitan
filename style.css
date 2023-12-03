@@ -131,7 +131,7 @@
 .container .mobile .content .cards .card-wrapper .card .details .bottom .name,
 .container .mobile .content .cards .card-wrapper .card .details .bottom .expiry {
   color: #f7f7f7;
-  font-size: 9px;
+  font-size: 5px;
 }
 .container .mobile .content .cards .card-wrapper .card .details .bottom .expiry {
   margin-left: 10px;
@@ -189,7 +189,7 @@
 }
 .container .mobile .content .transactions .transaction .vendor-details .description {
   color: #5c5c5c;
-  font-size: 9px;
+  font-size: 5px;
 }
 .container .mobile .content .transactions .transaction .transaction-details {
   width: 30%;
@@ -199,12 +199,12 @@
   flex-direction: column;
 }
 .container .mobile .content .transactions .transaction .transaction-details .price {
-  font-size: 12px;
+  font-size: 9px;
   margin-bottom: 3px;
 }
 .container .mobile .content .transactions .transaction .transaction-details .date {
   color: #5c5c5c;
-  font-size: 7px;
+  font-size: 5px;
 }
 .container .mobile .content .transactions .transaction:not(:last-child) {
   border-bottom: 1px solid #ededed;
@@ -239,7 +239,7 @@
             text-align: center;
             text-decoration: none;
             display: inline-block;
-            font-size: 16px;
+            font-size: 15px;
             margin: 4px 2px;
             cursor: pointer;
         }
